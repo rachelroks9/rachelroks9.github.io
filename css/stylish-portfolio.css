@@ -16,6 +16,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.white {
+    color: white;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -28,6 +32,7 @@ body {
     font-size: 4.5em;
     font-weight: 700;
     margin-top: -5%;
+    -webkit-text-stroke: 1px white;
 }
 
 .text-vertical-right {
@@ -51,7 +56,7 @@ h3 {
 }
 
 .bg-primary {
-  background-color: #0e335e;
+  background-color: #a3cdf7;
 }
 
 .dash {
