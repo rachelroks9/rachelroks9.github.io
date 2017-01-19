@@ -61,7 +61,8 @@ h3 {
 }
 
 .bg-primary {
-  background-color: #a3cdf7;
+  background-color: #ca5f87;
+  /*#a3cdf7;*/
 }
 
 .dash {
@@ -302,4 +303,8 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+.fa-stack-1x {
+    color: #ca5f87;
 }
