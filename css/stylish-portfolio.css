@@ -13,7 +13,17 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*letter-spacing: .75px;*/
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 .white {
@@ -61,7 +71,8 @@ h3 {
 }
 
 .bg-primary {
-  background-color: #ca5f87;
+  background-color: #31A9E0;
+  /*#ca5f87;*/
   /*#a3cdf7;*/
 }
 
@@ -306,5 +317,5 @@ footer {
 }
 
 .fa-stack-1x {
-    color: #ca5f87;
+    color: #31A9E0;
 }
