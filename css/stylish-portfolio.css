@@ -345,3 +345,16 @@ div.desc{
     width: 80%;
     margin-left: 10%;
 }
+
+.res {
+    margin-top: 7px;
+    vertical-align: top;
+}
+
+.fontbuttons a {
+    color: gray;
+}
+
+/*.outlined {
+    border: 1px solid white;
+}*/
