@@ -354,3 +354,14 @@ div.desc{
 .fontbuttons a {
     color: gray;
 }
+
+@media(min-width:768px) {
+    #low {
+        margin-top: 40px;
+    }
+}
+@media(min-width:992px) {
+    #low {
+        margin-top: 50px;
+    }
+}
