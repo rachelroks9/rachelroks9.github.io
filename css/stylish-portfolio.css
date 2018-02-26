@@ -374,13 +374,11 @@ div.desc{
 
 .photo-roll {
   height: 233px;
-  width: 3500px;
-  margin-bottom: 5px;
-  font-size: 0;
+  width: 5456px;
 }
 .photo-roll img {
   margin-bottom: 10px;
-  margin-right: 5px;
+  margin-right: 15px;
   height: 233px;
   width: 350px;
   -webkit-transition: all 0.5s ease;
@@ -392,8 +390,8 @@ div.desc{
   cursor: pointer;
 }*/
 .photo-roll img:first-child {
-  -webkit-animation: bannermove 30s linear infinite;
-          animation: bannermove 30s linear infinite;
+  -webkit-animation: bannermove 20s linear infinite;
+          animation: bannermove 20s linear infinite;
 }
 
 /* Keyframe animations*/
