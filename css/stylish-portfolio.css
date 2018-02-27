@@ -366,48 +366,83 @@ div.desc{
     }
 }
 
-.photo-roll--container {
-  width: 100%;
-  overflow: hidden;
-  margin: 10px auto;
+.first {
+ -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+     -ms-animation: bannermove 30s linear infinite;
+      -o-animation: bannermove 30s linear infinite;
+         animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -7200px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -7200px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+
+ 100% {
+   margin-left: -7000px;
+ }
+
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -7200px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -7200px;
+ }
+ 
 }
 
-.photo-roll {
-  height: 233px;
-  width: 5456px;
+.photocontainer {
+ overflow: hidden;
+ height: 233px;
+ margin-bottom: 25px;
 }
-.photo-roll img {
+
+.photobanner {
+ width: 6000px;
+ height: 233px;
+}
+
+.photobanner img {
   margin-bottom: 10px;
   margin-right: 15px;
   height: 233px;
   width: 350px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-/*.photo-roll img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  cursor: pointer;
-}*/
-.photo-roll img:first-child {
-  -webkit-animation: bannermove 20s linear infinite;
-          animation: bannermove 20s linear infinite;
-}
-
-/* Keyframe animations*/
-@-webkit-keyframes "bannermove" {
-  0% {
-    margin-left: 0px;
-  }
-  100% {
-    margin-left: -2130px;
-  }
-}
-@keyframes "bannermove" {
-  0% {
-    margin-left: 0px;
-  }
-  100% {
-    margin-left: -2130px;
-  }
+  -webkit-transition-delay: 20s; /* Safari */
+  transition-delay: 20s;
+  -webkit-transition: linear; /* Safari */
+  transition: linear;
 }
