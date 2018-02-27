@@ -367,11 +367,11 @@ div.desc{
 }
 
 .first {
- -webkit-animation: bannermove 30s linear infinite;
-    -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
+ -webkit-animation: bannermove 50s linear infinite;
+    -moz-animation: bannermove 50s linear infinite;
+     -ms-animation: bannermove 50s linear infinite;
+      -o-animation: bannermove 50s linear infinite;
+         animation: bannermove 50s linear infinite;
 }
  
 @keyframes "bannermove" {
@@ -441,8 +441,8 @@ div.desc{
   margin-right: 15px;
   height: 233px;
   width: 350px;
-  -webkit-transition-delay: 20s; /* Safari */
-  transition-delay: 20s;
+  -webkit-transition-delay: 50s; /* Safari */
+  transition-delay: 50s;
   -webkit-transition: linear; /* Safari */
   transition: linear;
 }
